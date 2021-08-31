@@ -1,0 +1,17 @@
+.box-model {
+    box-sizing: border-box;
+    background-image: url('https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg');
+    width: 1300px;
+    height: 900px;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.btn {
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #566c9c;
+    color: white;
+}
