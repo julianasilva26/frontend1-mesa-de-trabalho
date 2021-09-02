@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+.sub-box, h3 {
+    height: 150px;
+    width: 150px;
+    background-color: wheat;
+}
+
+.box, .sub-box  {
+    border-radius: 5px;
+}
+
+.sub-box {
+    position: absolute;
+    left: calc(50% - 150px/2);
+    top: calc(50% - 150px/2);
+}
+
+h3 {
+    line-height: 150px;
+    text-align: center;
+}
+
+.box1 {
+    position: absolute;
+    right: 0;
+    background-color: #800080;
+}
+
+.box2 {
+    background-color: #008080;
+}
+
+.box3 {
+    position: fixed;
+    left: calc(50% - 300px/2);
+    background-color: #ee82ee;
+    bottom: 0;
+}
+
