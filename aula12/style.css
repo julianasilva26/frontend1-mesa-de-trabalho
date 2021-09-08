@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+}
+
+header {
+    position: fixed;
+    background-color: teal;
+    height: 150px;
+    width: 100%;
+    z-index: 1;
+}
+
+header p {
+    display: inline;
+    position: relative;
+    bottom: 70px;
+    margin: 0 130px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    top: 185px;
+    transform: translate(190%, 0%);
+    z-index: 0;
+    width: 500px;
+}
+
+main div {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    margin: 10px auto;
+}
+
+div img {
+    width: 300px;
+    height: 250px;
+}
+
+div p {
+    text-align: justify;
+    width: 300px;
+    margin: 0 auto;
+}
+
+p, button, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    background-color: purple;
+    border: 1px solid violet;
+    border-radius: 10px;
+    margin: 10px auto;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.logo, .wpp {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    margin: 0 150px;
+}
+
+.wpp {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    top: 950px;
+    right: -100px;
+    cursor: pointer;
+}
