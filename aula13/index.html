@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <img src="./img/programmer.png" alt="user">
+    <h1>Cadastre-se</h1>
+    <form>
+        <p>
+            <input type="text" name="nome" id="nome" placeholder="usuário">
+        </p>
+        
+        <p>
+            <input type="text" name="email1" id="email1" placeholder="email">
+        </p>
+        
+        <p>            
+            <input type="text" name="email2" id="email2" placeholder="confirme o email">
+        </p>
+        
+        <p>            
+            <input type="text" name="senha1" id="senha1" placeholder="senha">
+        </p>
+        
+        <p>            
+            <input type="text" name="senha2" id="senha2" placeholder="confirme a senha">
+        </p>
+        
+        <p>
+            <label for="cidade">Sua cidade:</label>
+            <select name="cidade" id="cidade">
+                <option value="Manaus">Manaus</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Curitiba">Curitiba</option>
+                <option value="Outro">Outro</option>
+            </select>
+        </p>
+        
+        <p>
+            <label for="comentario">Deixe seu comentário sobre o formulário:</label>
+            <textarea name="comentario" id="comentario" cols="50" rows="15"></textarea>
+        </p>
+        
+        <button type="reset">Cancelar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
