@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula16</title>
+</head>
+<body>
+    <h1>Praticando pseudo-classes e pseudo-elementos</h1>
+    <ol type="I">
+        <li><h2>:hover</h2></li>
+        <button>
+            Clique aqui
+        </button>
+
+        <li><h2>::first-letter</h2></li>
+
+        <div class="box-first-letter">
+            <h3 class="box-one title">Antes:</h3>
+            <p class="box-one">Exemplo</p>
+            <h3 class="box-one title">Depois</h3>
+            <p class="box-one p-modify">Exemplo</p>
+        </div>
+
+        <li><h2>:focus</h2></li>
+        <input type="text" class="name" placeholder="Insira seu nome">
+
+        <li><h2>:checked</h2></li>
+        <h3>Utilizado em input tipo checkbox</h3>
+        <p class="box-two">Selecione o checkbox abaixo:</p>
+        <input type="checkbox">
+
+        <li>
+            <h2>:nth-child()</h2>
+            <div class="box-three">
+                <p>Linha Um</p>
+                <p>Linha Dois</p>
+                <p>Linha Três</p>
+                <p>Linha Quatro</p>
+                <p>Linha Cinco</p>
+            </div>
+        </li>
+
+        <li><h2>:enabled e :disabled</h2></li>
+        <form action="">
+            <label for="nome1">Enable:</label>
+            <input id='nome1' class='text1 box-four' type="text">
+            <label for="nome2">Disabled:</label>
+            <input id='nome2' class='text2 box-four' type="text" disabled>
+        </form>
+    </ol>
+</body>
+</html>
